@@ -5,5 +5,5 @@ curl -L -o data/stock-market-dataset.zip\
 mkdir -p data
 
 # Unzip into the data directory
-unzip -o ~/Downloads/stock-market-dataset.zip -d data
+unzip -o data/stock-market-dataset.zip -d data
 rm data/stock-market-dataset.zip
